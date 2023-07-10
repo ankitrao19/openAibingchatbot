@@ -67,7 +67,7 @@ def bing_data(query):
 def getResponse(payload: MetaResponse):
     query = payload.query
     search_url = "https://api.bing.microsoft.com/v7.0/search"
-    api_key = "aa3527dc0c2347969a08d154d65bfaa1"
+    api_key = "******************************"
     params = {"q": query, "count": 7}  # Count is Number of results to retrieve
     headers = {"Ocp-Apim-Subscription-Key": api_key}
     try:
@@ -94,7 +94,7 @@ def getResponse(payload: MetaResponse):
 def getResponse(payload: MetaResponse):
     query = payload.query
     search_url = "https://api.bing.microsoft.com/v7.0/search"
-    api_key = "aa3527dc0c2347969a08d154d65bfaa1"
+    api_key = "*******************"
     params = {"q": query, "count": 7}  # Count is Number of results to retrieve
     headers = {"Ocp-Apim-Subscription-Key": api_key}
     try:
